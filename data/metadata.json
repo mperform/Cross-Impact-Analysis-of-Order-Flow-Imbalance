@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "job_id": "XNAS-20250105-XNRRQNHNA8",
+    "query": {
+        "dataset": "XNAS.ITCH",
+        "schema": "mbp-10",
+        "symbols": [
+            "AAPL",
+            "AMGN",
+            "TSLA",
+            "JPM",
+            "XOM"
+        ],
+        "stype_in": "raw_symbol",
+        "stype_out": "instrument_id",
+        "start": 1733270400000000000,
+        "end": 1735948800000000000,
+        "limit": null,
+        "encoding": "dbn",
+        "compression": "zstd"
+    },
+    "customizations": {
+        "pretty_px": false,
+        "pretty_ts": false,
+        "map_symbols": false,
+        "split_symbols": false,
+        "split_duration": "day",
+        "split_size": null,
+        "packaging": null,
+        "delivery": "download"
+    }
+}
